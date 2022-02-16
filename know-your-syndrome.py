@@ -29,11 +29,11 @@ df_syndromes['Others'] = df_syndromes['Others'].str.replace(", -","\n\n-")
 
 def show_syndrome(user_syndrome, df):
     st.subheader(user_syndrome)
-    try:
-        image = Image.open(df.iloc[0]['png links'])
-        st.sidebar.image(image, caption=user_syndrome)
-    except FileNotFoundError:
-        pass
+    #try:
+    #    image = Image.open(df.iloc[0]['png links'])
+    #    st.sidebar.image(image, caption=user_syndrome)
+    #except FileNotFoundError:
+    #    pass
     expander_figure = st.expander('Figure')
     expander_genetics = st.expander('Genetics')
     expander_clinical_findings = st.expander('Clinical findings/Dysmorphic features')
@@ -90,17 +90,4 @@ elif category:
     df_final = df_filtered_category[df_filtered_category['Syndrome name'] == user_syndrome_category]
     if user_syndrome_category != '-':
         show_syndrome(user_syndrome_category,df_final)
-
-
-    #syndromes = sorted(df_filtered['Syndrome name'])
-#    user_syndrome = st.sidebar.selectbox(f'Choose one of {len(syndromes)} syndromes', ['-'] + syndromes)
-
-#if categories:
-#
-#image = Image.open(df_filtered.iloc[0]['png links'])
-#st.sidebar.image(image, caption=user_syndrome)
-#if user_syndrome != '-':
-#    user_choice = st.radio("What do you want to do", ('Study', 'Get info'))
-#    if user_choice == 'Get info':
- #   df_filtered = df_syndromes[df_syndromes['Syndrome name'] == user_syndrome]
 
