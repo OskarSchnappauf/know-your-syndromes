@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run kys.py
+web: sh setup.sh && streamlit run know-your-syndrome.py
