@@ -29,11 +29,11 @@ df_syndromes['Others'] = df_syndromes['Others'].str.replace(", -","\n\n-")
 
 def show_syndrome(user_syndrome, df):
     st.subheader(user_syndrome)
-    #try:
-    #    image = Image.open(df.iloc[0]['png links'])
-    #    st.sidebar.image(image, caption=user_syndrome)
-    #except FileNotFoundError:
-    #    pass
+    try:
+        image = Image.open(df.iloc[0]['png links'])
+        st.sidebar.image(image, caption=user_syndrome)
+    except FileNotFoundError:
+        pass
     expander_figure = st.expander('Figure')
     expander_genetics = st.expander('Genetics')
     expander_clinical_findings = st.expander('Clinical findings/Dysmorphic features')
