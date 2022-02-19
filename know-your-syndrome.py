@@ -7,7 +7,10 @@ st.set_page_config(page_title='Genetic Syndromes', page_icon=im)
 image = Image.open('NIH.png')
 st.sidebar.image(image,width=None)
 st.sidebar.header('Medical Genetics Training Program')
-df_syndromes = pd.read_csv('Syndromes_for_df_png.csv', sep=';')
+df_syndromes = pd.read_csv('df_for_app.csv', sep=',',usecols=['Genetics','Clinical findings/Dysmorphic features','Etiology',
+                                                              'Pathogenesis','Genetic testing/diagnosis','Others','Syndrome name',
+                                                              'Category','png links','figure'])
+
 st.header('Know your syndromes')
 st.markdown(f"**This app currently contains {len(df_syndromes['Syndrome name'])} genetic conditions**")
 st.markdown('by Oskar Schnappauf')
