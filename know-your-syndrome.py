@@ -11,6 +11,7 @@ df_syndromes = pd.read_csv('df_for_app.csv', sep=',',usecols=['Genetics','Clinic
                                                               'Pathogenesis','Genetic testing/diagnosis','Others','Syndrome name',
                                                               'Category','png links','figure'])
 
+st.dataframe(df_syndromes)
 st.header('Know your syndromes')
 st.markdown(f"**This app currently contains {len(df_syndromes['Syndrome name'])} genetic conditions**")
 st.markdown('by Oskar Schnappauf')
