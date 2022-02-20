@@ -1,6 +1,6 @@
 Syndrome name;Category;png links;figure;;;
 Multiple endocrine neoplasia type 1 (MEN1);Oncologic Disorders;wordcloud_genereviews/Multiple endocrine neoplasia type 1 (MEN1).png;figures/MEN1.png;;;
-Dyskeratosis congenita;Oncologic Disorders;wordcloud_genereviews/Dyskeratosis congenita.png;;;;
+Dyskeratosis congenita;Oncologic Disorders;wordcloud_genereviews/Dyskeratosis congenita.png;figures/Dyskeratosis_congenita.jpeg;;;
 Fragile X;Neurological disorders;wordcloud_genereviews/Fragile X.png;figures/Fragile_X.png;;;
 Familial Adenomatous Polyposis;Oncologic Disorders;wordcloud_genereviews/Familial Adenomatous Polyposis.png;figures/FAP.png;;;
 Urea cycle disorders;Biochemical Disorders;wordcloud_genereviews/Urea cycle disorders.png;figures/Urea_Cycle.jpg;;;
@@ -15,7 +15,7 @@ Angelman syndrome;Neurological disorders;wordcloud_genereviews/Angelman syndrome
 Alagille syndrome;Cardiovascular Disease;wordcloud_genereviews/Alagille syndrome.png;figures/Alagille.jpeg;;;
 1p36 Deletion Syndrome;Multiple Congenital Anomalies;;figures/1p36.jpeg;;;
 Hermansky-Pudlak Syndrome;Disorders of Hearing and Vision;wordcloud_genereviews/Hermansky-Pudlak Syndrome.png;figures/HPS.png;;;
-Mitochondrial DNA Deletion Syndromes;Mitochondrial Disorders;wordcloud_genereviews/Mitochondrial DNA Deletion Syndromes.png;;;;
+Mitochondrial DNA Deletion Syndromes;Mitochondrial Disorders;wordcloud_genereviews/Mitochondrial DNA Deletion Syndromes.png;figures/Mitochondrial DNA Deletion Syndromes.png;;;
 WAS-related disorders;Disorders of the Immune System;wordcloud_genereviews/WAS-related disorders.png;figures/WAS-related disorders.png;;;
 Loeys-Dietz Syndrome (LDS);Connective Tissue Disorders;wordcloud_genereviews/Loeys-Dietz Syndrome (LDS).png;figures/Loeys-Dietz Syndrome.png;;;
 Hereditary Multiple Osteochondromas;Skeletal dysplasias;wordcloud_genereviews/Hereditary Multiple Osteochondromas.png;figures/Osteochondromas.png;;;
@@ -37,7 +37,7 @@ Cleidocranial Dysplasia Spectrum Disorder;Skeletal dysplasias;wordcloud_generevi
 Pendred syndrome;Disorders of Hearing and Vision;wordcloud_genereviews/Pendred syndrome.png;figures/Pendred.png;;;
 Arylsulfatase A Deficiency (Metachromatic Leukodystrophy);Biochemical Disorders;;figures/Arylsulfatase.png;;;
 Galactocerebrosidase deficiency (Krabbe Disease);Biochemical Disorders;;figures/Krabbe.jpeg;;;
-Juvenile Polyposis Syndrome;Oncologic Disorders;wordcloud_genereviews/Juvenile Polyposis Syndrome.png;;;;
+Juvenile Polyposis Syndrome;Oncologic Disorders;wordcloud_genereviews/Juvenile Polyposis Syndrome.png;figures/Juvenile Polyposis Syndrome.png;;;
 Huntington Disease;Neurological disorders;wordcloud_genereviews/Huntington Disease.png;figures/HD.png;;;
 BRCA1 and BRCA2 Hereditary Breast and Ovarian Cancer;Oncologic Disorders;wordcloud_genereviews/BRCA1 and BRCA2 Hereditary Breast and Ovarian Cancer.png;figures/BRCA1_2.png;;;
 Multiple Endocrine Neoplasia Type 2 (MEN2);Oncologic Disorders;wordcloud_genereviews/Multiple Endocrine Neoplasia Type 2 (MEN2).png;figures/MEN2.jpeg;;;
@@ -51,7 +51,7 @@ Glycine Encephalopathy (Nonketotic hyperglycinemia);Biochemical Disorders;;figur
 Propionic Acidemia;Biochemical Disorders;wordcloud_genereviews/Propionic Acidemia.png;figures/PA.jpeg;;;
 Klinefelter syndrome;Endocrine Disorders;;figures/Klinefelter.jpeg;;;
 Xeroderma Pigmentosum;Oncologic Disorders;wordcloud_genereviews/Xeroderma Pigmentosum.png;figures/Xeroderma.png;;;
-MUTHY-Associated polyposis;Oncologic Disorders;;;;;
+MUTHY-Associated polyposis;Oncologic Disorders;;MUTHY-Associated polyposis.png;;;
 Noonan syndrome with multiple lentigines (LEOPARD);Cardiovascular Disease;wordcloud_genereviews/Noonan syndrome with multiple lentigines (LEOPARD).png;figures/Leopard.png;;;
 Myotonic dystrophy type I;Neuromuscular Disorders;wordcloud_genereviews/Myotonic dystrophy type I.png;figures/MD1.jpeg;;;
 Trisomy 18 (Edwards syndrome);Multiple Congenital Anomalies;;figures/Edwards.jpeg;;;
@@ -99,19 +99,19 @@ Alpha-1 Antitrypsin Deficiency;Pulmonary Disorders;wordcloud_genereviews/Alpha-1
 Amyotrophic lateral sclerosis;Neuromuscular Disorders;wordcloud_genereviews/Amyotrophic lateral sclerosis.png;figures/ALS.png;;;
 WAGR Syndrome (PAX6-Related Aniridia);Disorders of Hearing and Vision;;figures/WAGR.png;;;
 Spinal muscular atrophy;Neuromuscular Disorders;wordcloud_genereviews/Spinal muscular atrophy.png;figures/SMA.jpg;;;
-Nevoid basal cell carcinoma syndrome (Gorlin syndrome);Oncologic Disorders;;;;;
+Nevoid basal cell carcinoma syndrome (Gorlin syndrome);Oncologic Disorders;;Nevoid basal cell carcinoma syndrome.jpeg;;;
 Tuberous Sclerosis Complex;Oncologic Disorders;wordcloud_genereviews/Tuberous Sclerosis Complex.png;figures/TSC.jpeg;;;
 Von Hippel-Lindau Syndrome;Oncologic Disorders;wordcloud_genereviews/Von Hippel-Lindau Syndrome.png;figures/VHL.jpeg;;;
 Nemaline myopathy;Neuromuscular Disorders;;figures/Nemaline Myopathy.png;;;
-DICER1-Related Disorders;Oncologic Disorders;;;;;
+DICER1-Related Disorders;Oncologic Disorders;;DICER1-Related Disorders.jpeg;;;
 Wilson Disease;Neurological disorders;wordcloud_genereviews/Wilson Disease.png;figures/Wilson's.png;;;
 ATP7A-Related Copper Transport Disorders;Neurological disorders;wordcloud_genereviews/ATP7A-Related Copper Transport Disorders.png;figures/Menkes.jpeg;;;
 Cystic Fibrosis and Congenital Absence of the Vas Deferens;Pulmonary Disorders;wordcloud_genereviews/Cystic Fibrosis and Congenital Absence of the Vas Deferens.png;figures/CF.png;;;
-HFE Hemochromatosis;Hematologic Disorders;wordcloud_genereviews/HFE Hemochromatosis.png;;;;
+HFE Hemochromatosis;Hematologic Disorders;wordcloud_genereviews/HFE Hemochromatosis.png;HFE Hemochromatosis.jpeg;;;
 Williams Syndrome;Cardiovascular Disease;wordcloud_genereviews/Williams Syndrome.png;figures/Williams.jpeg;;;
 GBL1-Related Disorders;Biochemical Disorders;wordcloud_genereviews/GBL1-Related Disorders.png;figures/GM1.png;;;
 Antley-Bixler syndrome;Multiple Congenital Anomalies;wordcloud_genereviews/Antley-Bixler syndrome.png;figures/Antley Bixler.jpeg;;;
-Ataxia with Oculomotor Apraxia Type 1 and Type 2;Premature Aging;wordcloud_genereviews/Ataxia with Oculomotor Apraxia Type 1 and Type 2.png;;;;
+Ataxia with Oculomotor Apraxia Type 1 and Type 2;Premature Aging;wordcloud_genereviews/Ataxia with Oculomotor Apraxia Type 1 and Type 2.png;Ataxia with Oculomotor Apraxia 1.jpeg;;;
 21-Hydroxylase-Deficient Congenital Adrenal Hyperplasia;Endocrine Disorders;wordcloud_genereviews/21-Hydroxylase-Deficient Congenital Adrenal Hyperplasia.png;figures/21-Hydroxylase-Deficient Congenital Adrenal Hyperplasia.jpeg;;;
 Holt-Oram Syndrome;Cardiovascular Disease;wordcloud_genereviews/Holt-Oram Syndrome.png;figures/Holt Oram.jpeg;;;
 Wolf-Hirschhorn Syndrome (4p-, Monosomy 4p);Multiple Congenital Anomalies;;figures/Wolf-Hirschhorn-syndrome.jpeg;;;
@@ -127,7 +127,7 @@ Galactosemia;Biochemical Disorders;wordcloud_genereviews/Galactosemia.png;figure
 Waardenburg syndrome;Disorders of Hearing and Vision;wordcloud_genereviews/Waardenburg syndrome.png;figures/Waardenburg.png;;;
 Alport Syndrome;Renal Disorders;wordcloud_genereviews/Alport Syndrome.png;figures/Alport Syndrome.png;;;
 Rett syndrome;Neurological disorders;wordcloud_genereviews/Rett syndrome.png;figures/Rett.jpeg;;;
-Mucolipidosis II (I-cell disease);Biochemical Disorders;;;;;
+Mucolipidosis II (I-cell disease);Biochemical Disorders;;Mucolipidosis II (I-cell disease).jpg;;;
 Hexosaminidase A deficiency (Tay Sachs Disease);Neuromuscular Disorders;;figures/Tay-Sachs.png;;;
 Peutz-Jeghers Syndrome;Oncologic Disorders;wordcloud_genereviews/Peutz-Jeghers Syndrome.png;figures/Peutz Jeghers.png;;;
 Neurofibromatosis type 2;Oncologic Disorders;wordcloud_genereviews/Neurofibromatosis type 2.png;figures/NF2.png;;;
@@ -153,8 +153,8 @@ Russell-Silver Syndrome;Overgrowth disorders;wordcloud_genereviews/Russell-Silve
 Saethre-Chotzen Syndrome;Skeletal dysplasias;wordcloud_genereviews/Saethre-Chotzen Syndrome.png;figures/Saethre.png;;;
 PTEN Hamartoma Tumor Syndrome;Oncologic Disorders;wordcloud_genereviews/PTEN Hamartoma Tumor Syndrome.png;figures/Cowden_PTEN.jpeg;;;
 Syndromic Congenital Muscular Dystrophy;Neuromuscular Disorders;wordcloud_genereviews/Syndromic Congenital Muscular Dystrophy.png;figures/Fukuyama.jpeg;;;
-Retinoblastoma;Oncologic Disorders;wordcloud_genereviews/Retinoblastoma.png;;;;
-Parkinson Disease (Parkin-type);Neurological disorders;wordcloud_genereviews/Parkinson Disease (Parkin-type).png;;;;
+Retinoblastoma;Oncologic Disorders;wordcloud_genereviews/Retinoblastoma.png;Retinoblastoma.webp;;;
+Parkinson Disease (Parkin-type);Neurological disorders;wordcloud_genereviews/Parkinson Disease (Parkin-type).png;Parkinson Disease (Parkin-type).jpeg;;;
 Glutaric acidemia Type I;Biochemical Disorders;wordcloud_genereviews/Glutaric acidemia Type I.png;figures/GA1.png;;;
 Polycystic Kidney Disease (AD and AR);Renal Disorders;;figures/PKD.png;;;
 Acute intermittent porphyria (AIP);Hematologic Disorders;wordcloud_genereviews/Acute intermittent porphyria (AIP).png;figures/AIP.png;;;
