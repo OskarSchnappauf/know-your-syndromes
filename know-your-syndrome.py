@@ -5,7 +5,7 @@ import streamlit as st
 im = Image.open('DNA.jpeg')
 st.set_page_config(page_title='Genetic Syndromes', page_icon=im)
 image = Image.open('NIH.png')
-st.sidebar.image(image, width=None)
+st.sidebar.image(image)
 st.sidebar.header('Medical Genetics Training Program')
 df_syndromes = pd.read_csv('df_for_app.csv', sep=',', usecols=['Genetics', 'Clinical findings/Dysmorphic features',
                                                                'Etiology', 'Pathogenesis', 'Genetic testing/diagnosis',
