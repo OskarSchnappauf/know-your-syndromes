@@ -31,6 +31,24 @@ df_syndromes['Pathogenesis'] = df_syndromes['Pathogenesis'].str.replace(", -", "
 df_syndromes['Genetic testing/diagnosis'] = df_syndromes['Genetic testing/diagnosis'].str.replace(", -", "\n\n-")
 df_syndromes['Others'] = df_syndromes['Others'].str.replace(", -", "\n\n-")
 
+df_all = df_syndromes[['Syndrome name', 'Category']].sort_values('Syndrome name')
+
+st.subheader('All syndromes')
+main_search = st.text_input('Search all syndromes', key='main_search')
+main_category = st.multiselect('Filter by category (optional)', sorted(df_syndromes['Category'].unique()), key='main_category')
+
+df_main = df_all
+if main_search:
+    df_main = df_main[df_main['Syndrome name'].str.contains(main_search, case=False, na=False)]
+if main_category:
+    df_main = df_main[df_main['Category'].isin(main_category)]
+
+st.dataframe(df_main, use_container_width=True, hide_index=True)
+main_choice = st.selectbox(f'View details for one of {len(df_main)} syndromes', ['-'] + df_main['Syndrome name'].tolist(), key='main_choice')
+if main_choice != '-':
+    df_final = df_syndromes[df_syndromes['Syndrome name'] == main_choice]
+    show_syndrome(main_choice, df_final)
+
 
 def show_syndrome(user_syndrome, df):
     st.subheader(user_syndrome)
